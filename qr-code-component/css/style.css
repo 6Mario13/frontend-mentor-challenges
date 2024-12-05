@@ -48,12 +48,12 @@ img {
 	font-family:'OutfitB';
 	font-style: normal;
 	font-weight: 700;
-	src: url('../fonts/Outfit-Bold.ttf') format('ttf');
+	src: url('../fonts/Outfit-Bold.ttf');
 }
 
 @font-face {
 	font-family:'OutfitL';
 	font-style: normal;
 	font-weight: 300;
-	src: url('../fonts/Outfit-Light.ttf') format('ttf');
+	src: url('../fonts/Outfit-Light.ttf');
 }
