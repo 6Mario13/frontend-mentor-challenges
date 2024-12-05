@@ -28,14 +28,15 @@ main {
 }
 
 .text1 {
-	margin-bottom: 16px;
-	font-size: 22px;
 	font-family: 'OutfitB';
+	font-size: 22px;
+	margin-bottom: 16px;
 }
 
 .text2 {
-	font-size: 16px;
 	font-family: 'OutfitL';
+	font-size: 16px;
+	color: hsl(216, 15%, 48%);
 }
 
 img {
@@ -56,6 +57,5 @@ img {
 	font-family:'OutfitL';
 	font-style: normal;
 	font-weight: 300;
-	color: hsl(216, 15%, 48%);
 	src: url('../fonts/Outfit-Light.ttf');
 }
