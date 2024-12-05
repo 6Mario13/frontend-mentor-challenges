@@ -9,7 +9,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [Features] (#features)
+  - [Features](#features)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -20,9 +20,9 @@ The goal is to implement a QR code component by referring to the given design.
 
 ### Screenshot
 
-![mobile view](./screenshots/screenshot_mobile_view_Frontend_Mentor_QR_code_component.png)
+![mobile view](./screenshots/mobile_Frontend_Mentor_QR_code_component.png)
 
-![mobile view](./screenshots/screenshot_desktop_view_Frontend_Mentor_QR_code_component.png)
+![desktop view](./screenshots/desktop_Frontend_Mentor_QR_code_component.png)
 
 ### Links
 
