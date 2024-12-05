@@ -1,6 +1,5 @@
 body {
-  font-family: 'OutfitL';
-  src: url('./qr-code-component/fonts/Outfit-Light.ttf');
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 20px;
   background-color: #f5f5f5;
