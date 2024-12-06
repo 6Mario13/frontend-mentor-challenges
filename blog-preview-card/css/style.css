@@ -108,14 +108,14 @@ h1:hover {
 
 @font-face {
 	font-family: 'Figtree';
-	src: url('../assets/fonts/Figtree/figtree-medium.woff2') format('woff2');
+	src: url('../assets/fonts/figtree-medium.woff2') format('woff2');
 	font-weight: 500;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'FigtreeEB';
-	src: url('../assets/fonts/Figtree/figtree-extra-bold.woff2') format('woff2');
+	src: url('../assets/fonts/figtree-extra-bold.woff2') format('woff2');
 	font-weight: 800;
 	font-style: normal;
 }
