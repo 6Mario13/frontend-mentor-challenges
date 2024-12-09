@@ -4,11 +4,12 @@
 }
 
 main {
-	height:100vh;
+	min-height:100dvh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	background-color: hsl(212, 45%, 89%);
+	padding: 24px;
 }
 
 .qr_box {
