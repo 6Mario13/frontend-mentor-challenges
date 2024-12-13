@@ -35,7 +35,7 @@ This is my solution to the **Blog Preview Card Challenge** from [Frontend Mentor
 ## Links
 
 - **Live Demo**: [View Live Site](https://6mario13.github.io/frontend-mentor-challenges/blog-preview-card/)
-- **Solution on Frontend Mentor**: [View Solution](https://www.frontendmentor.io/solutions?tab=all)
+- **Solution on Frontend Mentor**: [View Solution](https://www.frontendmentor.io/solutions/social-links-profile-based-on-html-and-css-Mna66iAW8X)
 
 ---
 

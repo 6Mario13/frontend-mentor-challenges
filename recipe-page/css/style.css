@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  min-height:100dvh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: hsl(30, 54%, 90%);
+}
+
+img {
+  width: 100%;
+}
+
+.recipe {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.recipe-content {
+  margin: 32px;
+}
+
+h1 {
+  font-family: 'young';
+  color: hsl(24, 5%, 18%);
+}
+
+h2 {
+  margin: 24px 0;
+  font-family: 'young';
+  color: hsl(14, 45%, 36%);
+}
+
+.description {
+  margin: 24px 0;
+  font-family: 'outfit';
+  font-size: 16px;
+  color: hsl(30, 10%, 34%);
+}
+
+.time {
+  padding: 0 24px;
+  border-radius: 12px;
+  background-color: hsl(330, 100%, 98%);
+}
+
+.time p {
+  padding: 24px 0;
+  font-family: 'outfit-SB';
+  font-size: 20px;
+  color: hsl(332, 51%, 32%);
+}
+
+ul, ol {
+  padding: 0 0 24px 24px;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.time ul {
+  border-bottom: none;
+}
+
+li {
+  padding:0 0 12px 24px;
+  font-family: 'outfit';
+  color: hsl(30, 10%, 34%);
+}
+
+li::marker {
+  font-family: 'outfit-B';
+  color: hsl(14, 45%, 36%);
+}
+
+.time li::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+.nutrition p,
+.nutrition table {
+ font-family: 'outfit';
+ color: hsl(30, 10%, 34%);
+}
+
+.nutrition table {
+  margin-top: 16px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.nutrition table td {
+  padding: 12px 24px;
+  text-align: left;
+}
+
+.nutrition td:last-child {
+  font-family: 'outfit-SB';
+  color: hsl(14, 45%, 36%);
+}
+
+.nutrition table tr {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.nutrition tr:last-child {
+  border-bottom: none;
+}
+
+/* desktop */
+
+@media only screen and (min-width: 700px) {
+
+  .image {
+    margin: 32px 32px 0;
+  }
+
+  img {
+    border-radius: 16px;
+  }
+
+	.recipe {
+    width: 700px;
+    margin: 80px 0;
+    border-radius: 24px;
+  }
+}
+
+/* fonts */
+
+@font-face {
+  font-family:'young';
+  src: url('../assets/fonts/young-serif/YoungSerif-Regular.ttf');
+}
+
+@font-face {
+  font-family:'outfit';
+  font-weight: 400;
+  src: url('../assets/fonts/outfit/static/Outfit-Regular.ttf');
+}
+
+@font-face {
+  font-family:'outfit-B';
+  font-weight: 700;
+  src: url('../assets/fonts/outfit/static/Outfit-Bold.ttf');
+}
+
+@font-face {
+  font-family:'outfit-SB';
+  font-weight: 600;
+  src: url('../assets/fonts/outfit/static/Outfit-SemiBold.ttf');
+}

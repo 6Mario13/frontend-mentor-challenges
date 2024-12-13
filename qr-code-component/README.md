@@ -20,7 +20,7 @@ The goal is to implement a QR code component by referring to the given design.
 
 ### Screenshot
 
-![mobile view](./screenshots/mobile_Frontend_Mentor_QR_code_component.png)
+![mobile view](./assets/screenshots/mobile_Frontend_Mentor_QR_code_component.png)
 
 ![desktop view](./assets/screenshots/desktop_Frontend_Mentor_QR_code_component.png)
 
