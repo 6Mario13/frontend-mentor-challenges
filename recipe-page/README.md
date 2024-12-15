@@ -36,7 +36,7 @@ This is my solution to the **Recipe Page Challenge** from [Frontend Mentor](http
 ## Links
 
 - **Live Demo**: [View Live Site](https://6mario13.github.io/frontend-mentor-challenges/recipe-page/)
-- **Solution on Frontend Mentor**: [View Solution](https://www.frontendmentor.io/solutions/)
+- **Solution on Frontend Mentor**: [View Solution](https://www.frontendmentor.io/solutions/recipe-page-with-lists-and-table-elements-Wu_OBQkxgF)
 
 ---
 

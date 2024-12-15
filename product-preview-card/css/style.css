@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  min-height:100dvh;
+  padding: 2rem 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: hsl(30, 38%, 92%);
+}
+
+.card {
+  height: 610px;
+  max-width: 350px;
+  border-radius: 0.8rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(0, 0%, 100%);
+}
+
+picture img {
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  height: 100%;
+  padding: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1 {
+  font-family: 'fraunces';
+  font-size: 2rem;
+  line-height: 1;
+}
+
+span {
+  margin-bottom: 1rem;
+  font-family: 'montserrat';
+  font-size: 0.7rem;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  color: hsl(228, 12%, 48%);
+  display: block;
+}
+
+p {
+  font-family: 'montserrat';
+  color: hsl(228, 12%, 48%);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.discount {
+  font-family: 'fraunces';
+  font-size: 2rem;
+  color: hsl(158, 36%, 37%);
+}
+
+.regular {
+  font-family: 'montserrat';
+  color: hsl(228, 12%, 48%);
+  text-decoration-line: line-through;
+}
+
+.basket {
+  width: 100%;
+  padding: 1rem 0;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  font-family: 'montserrat-B';
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(158, 36%, 37%);
+}
+
+.basket:hover {
+  cursor: pointer;
+  background-color: hsl(158, 46%, 15%);
+}
+
+.basket img {
+  height: 1.2rem;
+}
+
+/* desktop */
+
+@media only screen and (min-width: 	640px) {
+
+  .card {
+    height: fit-content;
+    flex-direction: row;
+    max-width: 640px;
+  }
+
+  .content,
+  picture {
+    width: 50%;
+  }
+
+  .content {
+    height: auto;
+    padding: 2rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  span,
+  p {
+    font-size: 1rem;
+  }
+}
+
+/* fonts */
+
+@font-face {
+  font-family:'montserrat';
+  font-weight: 500;
+  src: url('../assets/fonts/Montserrat/static/Montserrat-Medium.ttf');
+}
+
+@font-face {
+  font-family:'montserrat-B';
+  font-weight: 700;
+  src: url('../assets/fonts/Montserrat/static/Montserrat-SemiBold.ttf');
+}
+
+@font-face {
+  font-family:'fraunces';
+  font-weight: 800;
+  src: url('../assets/fonts/Fraunces/static/Fraunces_9pt-Bold.ttf');
+}

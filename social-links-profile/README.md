@@ -36,7 +36,7 @@ This is my solution to the **Social Links Profile Challenge** from [Frontend Men
 ## Links
 
 - **Live Demo**: [View Live Site](https://6mario13.github.io/frontend-mentor-challenges/social-links-profile/)
-- **Solution on Frontend Mentor**: [View Solution](https://www.frontendmentor.io/solutions?tab=all)
+- **Solution on Frontend Mentor**: [View Solution](https://www.frontendmentor.io/solutions/social-links-profile-based-on-html-and-css-Mna66iAW8X)
 
 ---
 
@@ -65,14 +65,6 @@ This project helped me:
 - Practice styling hover and focus states effectively.
 
 ---
-
-<!-- ## Future Improvements
-
-- Add smooth animations for transitions.
-Enhance responsiveness for ultra-wide screens.
-- Integrate more social platforms dynamically.
-
---- -->
 
 ## Author
 

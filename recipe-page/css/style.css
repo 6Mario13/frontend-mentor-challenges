@@ -110,7 +110,7 @@ li::marker {
 
 /* desktop */
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 	768px) {
 
   .image {
     margin: 32px 32px 0;
