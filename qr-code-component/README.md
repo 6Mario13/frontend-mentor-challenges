@@ -27,7 +27,7 @@ The goal is to implement a QR code component by referring to the given design.
 ### Links
 
 - GitHub: [qr code component](https://github.com/6Mario13/frontend-mentor-challenges/tree/main/qr-code-component)
-- Live Demo: [View Live Site](https://6mario13.github.io/frontend-mentor-challenges/blog-preview-card/)
+- Live Demo: [View Live Site](https://6mario13.github.io/frontend-mentor-challenges/qr-code-component/)
 - Solution on Frontend Mentor: [View Solution](https://www.frontendmentor.io/solutions/qr-code-component-built-with-html-and-css-o381FMKSAQ)
 
 ## My process

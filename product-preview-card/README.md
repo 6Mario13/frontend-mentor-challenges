@@ -34,7 +34,7 @@ This is my solution to the **Product Preview Card Component Challenge** from [Fr
 ## Links
 
 - **Live Demo**: [View Live Site](https://6mario13.github.io/frontend-mentor-challenges/product-preview-card/)
-- **Solution on Frontend Mentor**: [View Solution](https://www.frontendmentor.io/solutions/)
+- **Solution on Frontend Mentor**: [View Solution](https://www.frontendmentor.io/solutions/product-preview-card-component-based-on-flexbox-SBJ8v5ArJi)
 
 ---
 

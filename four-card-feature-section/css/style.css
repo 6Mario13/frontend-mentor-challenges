@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  padding: 4rem 2rem;
+  min-height:100dvh;
+	display: flex;
+  flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  gap: 2rem;
+	background-color: hsl(0, 0%, 98%);
+}
+
+h1 {
+  margin-bottom: 1rem;
+  text-align: center;
+  width: 100%;
+  font-size: 1.5rem;
+  font-family: 'poppins-SB';
+  color: hsl(234, 12%, 34%);
+}
+
+span {
+  display: block;
+  width: 100%;
+  font-size: 1.45rem;
+  font-family: 'poppins-L';
+  color: hsl(229, 6%, 66%);
+}
+
+
+h2 {
+  font-family: 'poppins-SB';
+  font-size: 1.2rem;
+  color: hsl(234, 12%, 34%);
+}
+
+p {
+  font-family: 'poppins';
+  color: hsl(229, 6%, 66%);
+}
+
+header p {
+  max-width: 500px;
+  font-size: 15px;
+  text-align: center;
+}
+
+main p {
+  font-size: 0.9rem;
+  margin: 0.5rem 0 1.5rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.card {
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  border-radius: 0.3rem;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0 0.5rem 1rem hsl(229, 6%, 66%);
+}
+
+.card-1 {
+  border-top: 0.3rem solid hsl(180, 62%, 55%);
+}
+.card-2 {
+  border-top: 0.3rem solid hsl(0, 78%, 62%);
+}
+.card-3 {
+  border-top: 0.3rem solid hsl(34, 97%, 64%);
+}
+.card-4 {
+  border-top: 0.3rem solid hsl(212, 86%, 64%);
+}
+
+img {
+  width: 3rem;
+  align-self: self-end;
+}
+
+@media only screen and (min-width: 	768px) {
+  main {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+  }
+}
+
+@media only screen and (min-width: 	1280px) {
+  main {
+    display: grid;
+    grid-template-areas:
+      "div1 div2 div4"
+      " div1 div3 div4";
+    align-items: center;
+    align-items: center;
+  }
+
+  .content {
+    padding: 3rem 0;
+  }
+
+  h1,
+  span {
+    font-size: 2rem;
+  }
+
+  .card-1 {
+    grid-area: div1;
+  }
+
+  .card-2 {
+    grid-area: div2;
+  }
+
+  .card-3 {
+    grid-area: div3;
+  }
+
+  .card-4 {
+    grid-area: div4;
+  }
+}
+
+/* fonts */
+
+@font-face {
+  font-family: 'poppins';
+  src: url('../assets/fonts/Poppins/Poppins-Regular.ttf');
+}
+@font-face {
+  font-family: 'poppins-SB';
+  src: url('../assets/fonts/Poppins/Poppins-SemiBold.ttf');
+}
+@font-face {
+  font-family: 'poppins-L';
+  src: url('../assets/fonts/Poppins/Poppins-Light.ttf');
+}
