@@ -25,6 +25,8 @@ This repository contains my solutions to various challenges from [Frontend Mento
 6. **Four Card Feature Section**
   - **Live Demo**: [View Project](https://6Mario13.github.io/frontend-mentor-challenges/four-card-feature-section/)
 
+7. **Testimonials Grid Section**
+  - **Live Demo**: [View Project](https://6Mario13.github.io/frontend-mentor-challenges/testimonials-grid-section/)
 ---
 
 ## Features

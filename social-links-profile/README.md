@@ -50,7 +50,7 @@ To run the project locally:
    ```
 2. Navigate to the project folder:
    ```bash
-   cd frontend_mentor_challenges/social-links-profile
+   cd social-links-profile
    ```
 3. Open the `index.html` file in your browser.
 
